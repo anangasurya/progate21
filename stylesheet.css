@@ -6,6 +6,7 @@
 
 body {
     font-family: "Open Sans";
+    margin: 0;
 }
 
 .bacaan {
@@ -17,6 +18,8 @@ body {
 .bacaan-container {
     display: flex;
     margin: 0 auto;
+    max-width: 1069px;
+    width: 100%;
 }
 
 .bacaan-img {
