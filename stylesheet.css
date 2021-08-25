@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans";
+}
+
 .bacaan {
     width: 100%;
     background-color: #E0E5F4;
-    font-family: "Open Sans";
     padding: 100px 140px;
 }
 
