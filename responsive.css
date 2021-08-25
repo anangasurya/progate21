@@ -47,22 +47,23 @@
     }
 
     .bacaan-txt h2 {
-        width: 400px;
-        font-size: 30px;
+        width: 350px;
+        font-size: 24px;
         padding-top: 30px;
         margin: 0 auto;
     }
 
     .bacaan-txt p {
-        width: 450px;
-        font-size: 16px;
+        width: 300px;
+        font-size: 14px;
         margin: 0 auto;
         padding: 20px 0 30px;
     }
 
     .bacaan-txt a {
         font-size: 14px;
-        padding: 10px 75px;
+        padding: 8px 75px;
         margin: 0 auto;
+        width: 75%;
     }
 }
