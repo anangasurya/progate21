@@ -30,7 +30,6 @@ body {
 .bacaan-txt {
     flex: auto;
     flex-direction: column;
-    transition: all 0.5s;
 }
 
 .bacaan-txt h2 {
@@ -55,6 +54,7 @@ body {
     border: 3px solid #D47850;
     border-radius: 6px;
     margin-top: 10px;
+    transition: all 0.5s;
 }
 
 .bacaan-txt a:hover {
