@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px) {
+
+    .desc {
+        width: 400px;
+        height: 300px;
+        margin-right: 30px;
+    }
+
+    .service{
+        width: 400px;
+        height: 230px;
+    }
+
+    .desc p {
+        line-height: 30px;
+    }
+
+    .socmed{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    .desc {
+        width: 400px;
+        height: 300px;
+        margin-right: 30px;
+    }
+
+    .service{
+        width: 400px;
+        height: 230px;
+    }
+
+    .desc p {
+        line-height: 30px;
+    }
+
+    .socmed{
+        width: 400px;
+        height: 300px;
+    }
+
+}
+

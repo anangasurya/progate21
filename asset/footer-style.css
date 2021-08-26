@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
+.footer{
+  height: 355px;
+  font-family: "Open Sans";
+  margin: 0px 100px;
+}
+
+.logo-bottom {
+  width: 196px;
+  height: 61px;
+  left: 99px;
+  top: 2895px;
+}
+
+#mywear-bottom {
+  width: 140px;
+  padding-top: 50px;
+}
+
+.desc{
+  font-size: 22px;
+  height: 300px;
+  color: #525252;
+  float: left;
+  padding-right: 155px;
+}
+
+.desc h3{
+  padding-top: 20px;
+  float: left;
+}
+
+.service {
+  font-size: 22px;
+  height: 300px;
+  left: 660px;
+  top: 2911px;
+  color: #17244B;
+  float: left;
+  padding-right: 155px;
+}
+
+.service p {
+  color: #525252;
+}
+
+.service h3 {
+  padding-top: 15px;
+}
+
+.socmed {
+  font-size: 22px;
+  height: 300px;
+  left: 1018px;
+  top: 2911px;
+  color: #17244B;
+  float: left;
+}
+
+.socmed p {
+  color: #525252;
+}
+
+.socmed h3 {
+  padding-top: 15px;
+}
+
+
