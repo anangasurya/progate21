@@ -9,15 +9,20 @@ body {
     margin: 0;
 }
 
+.clear {
+    clear: left;
+}
+
 /* Codingan Umar Dani */
 .navigasi {
-  margin: 45px 100px 130px 100px;
+  margin: 30px 100px 130px 100px;
 }
 
 .logo-brand {
   width: 140px;
   float: left;
-  margin-right: 180px;
+  margin-right: 250px;
+  padding-top: 15px;
 }
 
 .navigasi a {
@@ -58,9 +63,14 @@ body {
   cursor: pointer;
 }
 
+.top-heading {
+  float: left;
+  margin-top: -60px;
+}
+
 .copywriting {
   font-family: "Open Sans", sans-serif;
-  margin: 0px 100px;
+  margin: 0px 100px 75px;
 }
 
 .copywriting h2 {
@@ -76,7 +86,6 @@ body {
 }
 
 .copywriting img {
-  display: inline-block;
   width: 380px;
   float: right;
   margin-top: -110px;
