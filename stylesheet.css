@@ -51,18 +51,18 @@ body {
 .bacaan-txt a {
     display: inline-block;
     text-decoration: none;
-    color: #2C3244;
     font-size: 20px;
     padding: 10px 20px;
-    border: 3px solid #D47850;
+    background-color: #D47850;
+    color: white;
     border-radius: 6px;
     margin-top: 10px;
     transition: all 0.5s;
 }
 
 .bacaan-txt a:hover {
-    background-color: #D47850;
-    color: white;
+    background-color: #272727;
+    color: #fff;
 }
 
 
