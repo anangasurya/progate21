@@ -1,4 +1,15 @@
 @media all and (max-width: 1000px) {
+
+    .copywriting h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .man {
+        height: auto;
+        max-width: 100%;
+    }
+
     .bacaan {
         padding: 50px 40px;
     }
@@ -75,6 +86,16 @@
 }
 
 @media all and (max-width: 670px) {
+
+    .copywriting h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .man {
+        height: auto;
+        max-width: 100%;
+    }
     .bacaan {
         padding: 30px 0;
         text-align: center;

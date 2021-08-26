@@ -70,7 +70,7 @@ body {
 
 .copywriting {
   font-family: "Open Sans", sans-serif;
-  margin: 0px 100px 75px;
+  margin: 0px 100px 0px;
 }
 
 .copywriting h2 {
@@ -88,7 +88,6 @@ body {
 .copywriting img {
   width: 380px;
   float: right;
-  margin-top: -110px;
 }
 
 .btn-shop {
@@ -113,6 +112,11 @@ body {
 
 .pelajari:hover {
   color: #272727;
+}
+
+.man{
+  height: px;
+  width: 380px;
 }
 
 /* Codingan Anang */
