@@ -276,7 +276,7 @@ body {
 .footer{
     height: 355px;
     font-family: "Open Sans";
-    margin: 0px 100px;
+    padding : 0px 100px;
     float: left;
     width: 100%;
 }
@@ -295,11 +295,10 @@ body {
 
 .desc{
   font-size: 22px;
-/*  height: 400px;*/
   color: #525252;
   float: left;
-  padding-right: 140px;
-  width: 40%;
+  padding-right: 100px;
+  width: 50%;
 }
 
 .desc h3{
@@ -309,11 +308,10 @@ body {
 
 .service {
   font-size: 22px;
-/*  height: 300px;*/
   top: 2911px;
   color: #17244B;
   float: left;
-  padding-right: 140px;
+  padding-right: 100px;
   width: 30%;
 }
 
@@ -332,7 +330,7 @@ body {
   top: 2911px;
   color: #17244B;
   float: left;
-  width: 30%;
+  width: 20%;
 }
 
 .socmed p {
