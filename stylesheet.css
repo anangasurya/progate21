@@ -111,6 +111,71 @@ body {
     padding-bottom: 45px;
 }
 
+/*Codingan Annisa*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.newsletter {
+  width: 100%;
+  text-align: center;
+  background: #E0E5F4;
+  padding: 60px 0 100px;
+  position:absolute;
+}
+
+.newsletter-container {
+  margin: 0 auto;
+}
+
+.newsletter-container h1 {
+  font-size: 52px;
+  width:290px;
+  height:71px;
+  left:575px;
+  color: #2C3244;
+  margin: 0 auto;
+}
+
+.newsletter-container p {
+  font-size: 20px;
+  width: 592px;
+  color: #525252;
+  margin: 0 auto;
+  padding: 5px 0 30px;
+}
+
+.input-email {
+  border: none;
+  background-color: white;
+  color: #A2A2A2;
+  padding: 5px 15px;
+  width: 538px;
+  height: 57px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.btn-daftar {
+  background-color: #D47850;
+  color: white;
+  width: 138px;
+  height: 57px;
+  border: none;
+  font-size: 20px;
+  margin-left: -4px;
+}
+
+.btn-daftar:hover {
+  background-color: #272727;
+  color: #fff;
+}
+
 /*Codingan Ines*/
 
 .footer{
