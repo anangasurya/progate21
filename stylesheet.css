@@ -17,7 +17,7 @@ body {
 .logo-brand {
   width: 140px;
   float: left;
-  padding-right: 180px;
+  margin-right: 180px;
 }
 
 .navigasi a {
@@ -37,10 +37,10 @@ body {
 }
 
 #chart {
-  padding-left: 40px;
+  margin-left: 90px;
   width: 30px;
   cursor: pointer;
-  padding-right: 90px;
+  margin-right: 40px;
 }
 
 .login {
@@ -224,9 +224,6 @@ body {
 
 .newsletter-container h1 {
   font-size: 52px;
-  width:290px;
-  height:71px;
-  left:575px;
   color: #2C3244;
   margin: 0 auto;
 }
