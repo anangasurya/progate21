@@ -64,3 +64,51 @@ body {
     background-color: #D47850;
     color: white;
 }
+
+
+/* Codingan Ariful Farhan */
+.lessons-wrapper {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    font-family: "Open Sans";
+    font-size: 52px;
+    color: #2C3244;
+    
+}
+
+.heading p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    text-align: center;
+}
+
+.lesson {
+    float: left;
+    width: 33.33%;
+}
+
+.lesson-icon img {
+    height: 302px;
+    width: 300px;
+}
+
+.lesson-icon p {
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+.txt-contents {
+    font-size: 20px;
+    text-align: center;
+    color: #d14b4b;
+    padding-bottom: 45px;
+}
+
+/* Silahkan dilanjutkan */
