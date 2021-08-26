@@ -28,6 +28,13 @@
         font-size: 16px;
         padding: 5px 15px;
     }
+    
+    /* Codingan Ariful Farhan */
+    .lesson {
+      width: 50%;
+    }
+    
+    /* silahkan dilanjutkan */
 }
 
 @media all and (max-width: 670px) {
@@ -66,4 +73,11 @@
         margin: 0 auto;
         width: 75%;
     }
+    
+    /* Codingan Ariful Farhan */
+    .lesson {
+        width: 100%;
+    }
+    
+    /* silahkan dilanjutkan */
 }
