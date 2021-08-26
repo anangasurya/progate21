@@ -70,7 +70,8 @@ body {
 
 .copywriting {
   font-family: "Open Sans", sans-serif;
-  margin: 0px 100px 0px;
+  margin: 0px 120px 0px;
+  width: 80%;
 }
 
 .copywriting h2 {
@@ -79,7 +80,7 @@ body {
 
 .copywriting h1 {
   display: inline-block;
-  width: 600px;
+  width: 60%;
   color: #2c3244;
   font-size: 50px;
   margin-top: -10px;
@@ -98,6 +99,7 @@ body {
   border-radius: 3px;
   font-size: 18px;
   font-weight: 600;
+  margin-right: 30px;
 }
 
 .btn-shop:hover {
@@ -105,8 +107,9 @@ body {
   color: #fff;
 }
 
+
 .pelajari {
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   color: #a3a3a3;
 }
 

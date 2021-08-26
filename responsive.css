@@ -10,6 +10,10 @@
         max-width: 100%;
     }
 
+    .btn-shop {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
     .bacaan {
         padding: 50px 40px;
     }
@@ -96,6 +100,12 @@
         height: auto;
         max-width: 100%;
     }
+
+    .btn-shop {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
     .bacaan {
         padding: 30px 0;
         text-align: center;
