@@ -34,8 +34,21 @@
       width: 50%;
     }
     
-    .footer {
-      width: 50%;
+    /* Codingan Ines */
+    .desc {
+        width: 500px;
+        margin-right: 200px;
+        font-size: 18px;
+    }
+
+    .service{
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .socmed{
+        width: 400px;
+        font-size: 18px;
     }
     /* silahkan dilanjutkan */
 }
@@ -84,6 +97,22 @@
     
     .footer {
       width: 50%;
+    }
+
+    .desc {
+        width: 400px;
+        margin-right: 200px;
+        font-size: 12px;
+    }
+
+    .service{
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .socmed{
+        width: 200px;
+        font-size: 12px;
     }
     /* silahkan dilanjutkan */
 }

@@ -116,7 +116,7 @@ body {
 .footer{
     height: 355px;
     font-family: "Open Sans";
-    margin: 0px 200px;
+    margin: 0px 100px;
     float: left;
     width: 100%;
 }
@@ -135,7 +135,7 @@ body {
 
 .desc{
   font-size: 22px;
-  height: 400px;
+/*  height: 400px;*/
   color: #525252;
   float: left;
   padding-right: 140px;
@@ -149,7 +149,7 @@ body {
 
 .service {
   font-size: 22px;
-  height: 300px;
+/*  height: 300px;*/
   top: 2911px;
   color: #17244B;
   float: left;
@@ -167,7 +167,7 @@ body {
 
 .socmed {
   font-size: 22px;
-  height: 300px;
+/*  height: 300px;*/
   left: 1018px;
   top: 2911px;
   color: #17244B;
