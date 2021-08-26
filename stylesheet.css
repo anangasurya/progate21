@@ -9,6 +9,104 @@ body {
     margin: 0;
 }
 
+/* Codingan Umar Dani */
+.navigasi {
+  margin: 45px 100px 130px 100px;
+}
+
+.logo-brand {
+  width: 140px;
+  float: left;
+  padding-right: 180px;
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: #272727;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.navigasi a:hover {
+  opacity: 1;
+}
+
+.link {
+  padding-right: 80px;
+}
+
+#chart {
+  padding-left: 40px;
+  width: 30px;
+  cursor: pointer;
+  padding-right: 90px;
+}
+
+.login {
+  padding: 10px 24px;
+  border: none;
+  background-color: #d47850;
+  color: #ffff;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.login:hover {
+  background-color: #272727;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.copywriting {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px 100px;
+}
+
+.copywriting h2 {
+  color: #272727;
+}
+
+.copywriting h1 {
+  display: inline-block;
+  width: 600px;
+  color: #2c3244;
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+.copywriting img {
+  display: inline-block;
+  width: 380px;
+  float: right;
+  margin-top: -110px;
+}
+
+.btn-shop {
+  padding: 14px 24px;
+  border: none;
+  background-color: #d47850;
+  color: #ffff;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-shop:hover {
+  background-color: #272727;
+  color: #fff;
+}
+
+.pelajari {
+  margin-left: 30px;
+  color: #a3a3a3;
+}
+
+.pelajari:hover {
+  color: #272727;
+}
+
+/* Codingan Anang */
 .bacaan {
     width: 100%;
     background-color: #E0E5F4;
