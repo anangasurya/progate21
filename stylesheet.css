@@ -42,7 +42,7 @@ body {
 }
 
 #chart {
-  margin-left: 90px;
+/*  margin-left: 90px;*/
   width: 30px;
   cursor: pointer;
   margin-right: 40px;
@@ -89,6 +89,7 @@ body {
 .copywriting img {
   width: 380px;
   float: right;
+  margin-top: -200px;
 }
 
 .btn-shop {
