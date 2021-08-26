@@ -34,6 +34,27 @@
       width: 50%;
     }
     
+    /*Codingan Annisa*/
+    .newsletter-container h1 {
+		font-size: 52px;
+	}
+
+	.newsletter-container p {
+  		font-size: 20px;
+
+	}
+
+	.input-email {
+		width: 438px;
+  		height: 47px;
+	}
+
+	.btn-daftar{
+		width: 100px;
+	    height: 47px;
+	    font-size: 15px;
+	}
+    
     /* Codingan Ines */
     .desc {
         width: 500px;
@@ -114,5 +135,26 @@
         width: 200px;
         font-size: 12px;
     }
-    /* silahkan dilanjutkan */
+
+    /*Codingan Annisa*/
+    .newsletter-container h1 {
+		font-size: 46px;
+	}
+
+	.newsletter-container p {
+  		font-size: 15px;
+  		width: 70%;
+	}
+
+	.input-email {
+		width: 338px;
+  		height: 37px;
+	}
+
+	.btn-daftar{
+		width: 100px;
+	    height: 37px;
+	    font-size: 15px;
+	}
 }
+
