@@ -5,148 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="asset/icon.png">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-
-    <title>Mywear.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mywear</title>
 </head>
-
 <body>
-    <!--Codingan Umar Dani-->
-    <header>
-        <div class="navigasi">
-            <img class="logo-brand" src="asset/mywear..png" alt="mywear-logo">
-        
-            <a class="link" href="#home">Home</a>
-            <a class="link" href="#shop">Shop</a>
-            <a class="link" href="#about">About</a>
-            <a href="#contact">Contact</a>
-
-            <img id="chart" src="asset/shopping-cart 1.png" alt="keranjang">
-
-            <input class="login" type="button" value="Log In">
+    <nav>
+        <div class="logo">
+            <img src="/asset/mywear..png" alt="" class="nav-logo">
         </div>
-    
-        <div class="copywriting" id="home">
-            <div class="top-heading">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <div style="display: flex;">
+                <li><img src="/asset/shopping-cart 1.png" alt="" class="cart"></li>
+                <li><a href="" class="button">Log In</a></li>
+            </div>
+        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="container">
+            <div class="hero-txt">
                 <h5>Dapatkan diskon hingga <span style="color: #D14B4B;">75%</span> hari ini</h5>
                 <h1>Temukan koleksi pakaian basic bergaya modern kegemaranmu</h1><br>
-                <input class="btn-shop" type="button" name="shop" value="SHOP NOW">
-                <a class="pelajari" href="#">Pelajari lebih lanjut</a>
-                <img class = "man" src="asset/young-man-wearing-disposable-medical-mask-standing-front-yellow-wall-removebg-preview 1.png" alt="">
+                <div class="btn-wrapper">
+                    <a href="" class="button">SHOP NOW</a>
+                    <a class="pelajari" href="#">Pelajari lebih lanjut</a>
+                </div>
             </div>
-            <div class="clear"></div>
-        </div>
-
-    </header>
-    
-    <!-- Codingan Anang -->
-    <div class="bacaan" id="about">
-        <div class="bacaan-container">
-            <img class="bacaan-img" src="asset/the-creative-exchange-kWVImL5QxJI-unsplash 1.png">
-            <div class="bacaan-txt">
-                <h2>Diproduksi menggunakan bahan kain terbaik</h2>
-                <p>Pemilihan kain sudah melewati berbagai proses, agar mendapatkan hasil akhir yang nyaman untuk
-                    digunakan.</p>
-                <a href="#">Lanjut Baca</a>
-            </div>
-            <div class="clear"></div>
+            <img class="hero-img" src="asset/young-man-wearing-disposable-medical-mask-standing-front-yellow-wall-removebg-preview 1.png" alt="">
         </div>
     </div>
-    
-    <!-- Codingan Ariful Farhan -->
-    <div class="lessons-wrapper" id="shop">
-        <div class="heading">
-            <h1>Best Seller Product</h1>
-            <p>Produk di bawah ini merupakan yang paling banyak diminati dan mendapatkan review dari customer kami.</p>
-        </div>
-        
-        <div class="lessons">
-            <!-- bagian Strip Green Flanel -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/flanel.png">
-                    <p>Strip Green Flanel</p>
-                </div>
-                <p class="txt-contents">$1500</p>
+    <div class="top">
+        <div class="container">
+            <div class="top-img">
+                <img src="/asset/the-creative-exchange-kWVImL5QxJI-unsplash 1.png" alt="">
             </div>
-            <!-- bagian Black Baseball Cap -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/cap.png">
-                    <p>Black Baseball Cap</p>
-                </div>
-                <p class="txt-contents">$700</p>
+            <div class="top-txt">
+                <h2>Diproduksi menggunakan<br>bahan kain terbaik</h2>
+                <p>Pemilihan kain sudah melewati berbagai proses<br>agar mendapatkan hasil akhir yang nyaman untuk digunakan.</p>
+                <a href="" class="button">Lanjut Baca</a>
             </div>
-            <!-- bagian Ankle Pants -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/pants.png">
-                    <p>Ankle Pants</p>
-                </div>
-                <p class="txt-contents">$2200</p>
-            </div>
-            <!-- bagian Short Trousers  -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/short.png">
-                    <p>Short Trousers </p>
-                </div>
-                <p class="txt-contents">$500</p>
-            </div>
-            <!-- bagian Navy Jacket -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/jacket.png">
-                    <p>Navy Jacket</p>
-                </div>
-                <p class="txt-contents">$1850</p>
-            </div>
-            <!-- bagian Mickey T-shirt -->
-            <div class="lesson">
-                <div class="lesson-icon">
-                    <img src="asset/tshirt.png">
-                    <p>Mickey T-shirt</p>
-                </div>
-                <p class="txt-contents">$850</p>
-            </div>
-            <div class="clear"></div>
         </div>
     </div>
-    
-    <!--Codingan Annisa-->
-    <div class="newsletter">
-        <div class="newsletter-container">
-            <h1>Newsletter</h1>
+    <div class="main">
+        <div class="container">
+            <div class="heading">
+                <h2>Best Seller Product</h2>
+                <p>Produk di bawah ini merupakan yang paling banyak diminati dan mendapatkan review dari customer kami.</p>
+            </div>
+            <div class="products">
+                <!-- bagian Strip Green Flanel -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/flanel.png">
+                        <p>Strip Green Flanel</p>
+                    </div>
+                    <p class="price">$1500</p>
+                </div>
+                <!-- bagian Black Baseball Cap -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/cap.png">
+                        <p>Black Baseball Cap</p>
+                    </div>
+                    <p class="price">$700</p>
+                </div>
+                <!-- bagian Ankle Pants -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/pants.png">
+                        <p>Ankle Pants</p>
+                    </div>
+                    <p class="price">$2200</p>
+                </div>
+                <!-- bagian Short Trousers  -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/short.png">
+                        <p>Short Trousers </p>
+                    </div>
+                    <p class="price">$500</p>
+                </div>
+                <!-- bagian Navy Jacket -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/jacket.png">
+                        <p>Navy Jacket</p>
+                    </div>
+                    <p class="price">$1850</p>
+                </div>
+                <!-- bagian Mickey T-shirt -->
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="asset/tshirt.png">
+                        <p>Mickey T-shirt</p>
+                    </div>
+                    <p class="price">$850</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <h2>Newsletter</h1>
             <p>Daftarkan email kamu untuk mendapatkan notifikasi terbaru seputar article, diskon dan promo lainnya</p>
             <input type="text" placeholder="Masukkan email kamu" class="input-email">
-            <input class="btn-daftar" type="submit" value="Daftar">
+            <a href="" class="button daftar">Daftar</a>
         </div>
-    </div>  
-    
-    <!--Codingan Ines-->
-    <div class="footer" id="contact">
-        
+    </div>
+    <footer>
         <div class="desc">
             <img src="asset/mywear..png" id="mywear-bottom">
-            <p>mywear. merupakan brand pakaian
-            <br>pria yang berfokus pada model
-            <br>modern & basic.</p>
+            <p>mywear. merupakan brand pakaian<br>pria yang berfokus pada model<br>modern & basic.</p>
             <h3>@mywear.id</h3>
         </div>
         <div class="service">
-            <h3>Service</h3>
+            <h4>Service</h4>
             <p>FAQ</p>
             <p>Customer Support</p>
             <p>Return</p>
         </div>
         <div class="socmed">
-            <h3>Social Media</h3>
+            <h4>Social Media</h4>
             <p>Facebook</p>
             <p>Instagram</p>
             <p>Twitter</p>
             <p>Youtube</p>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
