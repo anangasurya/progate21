@@ -1,192 +1,152 @@
-@media all and (max-width: 1000px) {
-
-    .copywriting h1 {
-        font-size: 25px;
-        width: 300px;
+/* Responsive */
+@media (max-width: 920px) {
+    .container {
+        padding: 30px;
     }
 
-    .man {
-        height: auto;
-        max-width: 100%;
-        padding-top: 220px;
+    .hero .container {
+        grid-template-areas: 'hero-txt';
+        justify-content: center;
+        padding-bottom: 70px;
     }
 
-    .btn-shop {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
-    .bacaan {
-        padding: 50px 40px;
-    }
- 
-    .bacaan-img {
-        width: 400px;
-        height: 300px;
-        margin-right: 30px;
+    .hero-img {
+        display: none;
     }
 
-    .bacaan-txt {
-        margin: 0 auto;
+    .hero-txt {
+        text-align: center;
+        padding-top: 0;
     }
 
-    .bacaan-txt h2 {
-        width: 450px;
-        font-size: 34px;
-        margin-top: 10px;
+    .top-txt h2 {
+        font-size: 1.6em;
     }
-
-    .bacaan-txt p {
-        width: 400px;
-        font-size: 20px;
-    }
-
-    .bacaan-txt a {
-        font-size: 16px;
-        padding: 5px 15px;
-    }
-    
-    /* Codingan Ariful Farhan */
-    .lesson {
-      width: 50%;
-    }
-    
-    /*Codingan Annisa*/
-    .newsletter-container h1 {
-		font-size: 52px;
-	}
-
-	.newsletter-container p {
-  		font-size: 20px;
-
-	}
-
-	.input-email {
-		width: 438px;
-  		height: 47px;
-	}
-
-	.btn-daftar{
-		width: 100px;
-	    height: 47px;
-	    font-size: 15px;
-	}
-    
-    /* Codingan Ines */
-    .desc {
-        width: 500px;
-        margin-right: 200px;
-        font-size: 18px;
-    }
-
-    .service{
-        width: 400px;
-        font-size: 18px;
-    }
-
-    .socmed{
-        width: 400px;
-        font-size: 18px;
-    }
-    /* silahkan dilanjutkan */
 }
 
-@media all and (max-width: 670px) {
-
-    .copywriting h1 {
-        font-size: 25px;
-        width: 300px;
+@media (max-width: 780px) {
+    body {
+        font-size: 16px;
     }
 
-    .man {
-        height: auto;
-        max-width: 100%;
-    }
-
-    .btn-shop {
-        padding: 10px 20px;
-        font-size: 12px;
-    }
-
-    .bacaan {
-        padding: 30px 0;
-        text-align: center;
-    }
-
-    .bacaan-container {
+    nav {
         flex-direction: column;
     }
 
-    .bacaan-img {
-        width: 400px;
-        height: 300px;
-        margin: 0 auto;
+    .logo {
+        flex: 2;
+        margin-bottom: 20px;
     }
 
-    .bacaan-txt h2 {
-        width: 350px;
-        font-size: 24px;
-        padding-top: 30px;
-        margin: 0 auto;
-    }
-
-    .bacaan-txt p {
-        width: 300px;
-        font-size: 14px;
-        margin: 0 auto;
-        padding: 20px 0 30px;
-    }
-
-    .bacaan-txt a {
-        font-size: 14px;
-        padding: 8px 75px;
-        margin: 0 auto;
-        width: 75%;
-    }
-    
-    /* Codingan Ariful Farhan */
-    .lesson {
-        width: 100%;
-    }
-    
-    .footer {
-      width: 50%;
-    }
-
-    .desc {
-        width: 400px;
-        margin-right: 200px;
-        font-size: 12px;
-    }
-
-    .service{
+    .logo img {
         width: 200px;
-        font-size: 12px;
+        margin-top: 0;
     }
 
-    .socmed{
-        width: 200px;
-        font-size: 12px;
+    nav ul {
+        width: 80%;
     }
 
-    /*Codingan Annisa*/
-    .newsletter-container h1 {
-		font-size: 46px;
-	}
-
-	.newsletter-container p {
-  		font-size: 15px;
-  		width: 70%;
-	}
-
-	.input-email {
-		width: 338px;
-  		height: 37px;
-	}
-
-	.btn-daftar{
-		width: 100px;
-	    height: 37px;
-	    font-size: 15px;
-	}
+    .daftar {
+        display: block;
+        width: 15%;
+        border-radius: 4px;
+        margin: 20px auto 0;
+    }
 }
 
+@media (max-width: 580px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .logo {
+        flex: inherit;
+        margin: 0;
+    }
+
+    .logo img {
+        width: 140px;
+        margin-top: 7px;
+    }
+
+    .top .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-img img {
+        width: 75%;
+    }
+
+    .top-txt {
+        align-items: center;
+        text-align: center;
+    }
+
+    .product {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .input-email {
+        width: 100%;
+    }
+
+    .daftar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .product {
+        width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 25px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desc, .service, .socmed {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .btn-wrapper a {
+        display: block;
+    }
+
+    .pelajari {
+        margin: 20px auto 0;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+}
